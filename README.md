@@ -5,7 +5,7 @@
 ## zookeeper
 
 > https://github.com/alexguan/node-zookeeper-client
-> 实现同一时间段只允许执行同一本书的单次操作，多次操作默认关闭(不执行)，后面加入rabbitmq后多次操作会等待前一次操作完成后执行
+> 加锁，防止数据污染
 > app -> test.js
 
 ## rabbitmq
